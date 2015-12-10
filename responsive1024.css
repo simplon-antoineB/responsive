@@ -1,0 +1,154 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  float: none;
+}
+
+body{
+    background: #E6E6E6;
+}
+
+img{
+    border: 2px solid #585858;
+}
+
+  @media screen and (min-width: 1024px){
+
+    .header{
+    background: #424242;
+    padding-top:15px;
+    padding-bottom: 15px;
+    }
+
+    h1{
+      font-family: cursive, sans-serif;
+      font-weight: bold;
+      color: #A4A4A4;
+      padding: 10px;
+    }
+
+
+    .contenant{
+      display: inline-flex;
+      margin-left: 10%;
+      margin-top: 4%;
+    }
+
+    .footer{
+      margin-top: 110px;
+      width: 40%;
+      margin-left: 75px;
+    }
+
+    #imageHaute{
+      width: 600px;
+      height: 400px;
+      margin-left: 25%;
+      margin-top: 5%;
+    }
+
+    #titreH{
+      text-align: center;
+      color: #fff;
+      padding-top: 10px;
+    }
+
+    #footerH{
+        margin-left: 0;
+        height: 120px;
+        background: #6E6E6E;
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    #texteH{
+      color: #fff;
+      width: 50%;
+      text-align: center;
+      margin-left: 25%;
+      margin-top: 15px;
+    }
+  }
+
+    @media screen and (min-width: 600px) and (max-width: 1024px){
+
+      .header{
+      background: #424242;
+      padding-top:15px;
+      padding-bottom: 15px;
+      }
+
+      h1{
+        font-family: cursive, sans-serif;
+        font-weight: bold;
+        color: #A4A4A4;
+      }
+
+      .contenant{
+        width: 40%;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+
+      #topContenant{
+        width: 40%;
+        margin-left: 20px;
+      }
+
+
+      #inline1{
+        width: 90%;
+        margin-top: 25px;
+        display: inline-flex;
+        justify-content: space-between;
+        flex: 1;
+      }
+      #inline2{
+        width: 90%;
+        display: inline-flex;
+        justify-content: space-between;
+        /*flex: 1;*/
+      }
+      #inline3{
+        width: 90%;
+        display: inline-flex;
+        justify-content: space-between;
+        /*flex: 1;*/
+      }
+
+      .texteHaut{
+        width: 400px;
+      }
+
+    }
+
+    @media screen and (max-width: 600px){
+
+      .header{
+      background: #424242;
+      padding-top:15px;
+      padding-bottom: 15px;
+      }
+
+      h1{
+        font-family: cursive, sans-serif;
+        font-weight: bold;
+        color: #A4A4A4;
+      }
+
+      h2{
+        text-align: center;
+      }
+
+      #topContenant{
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+
+      .contenant{
+        margin-left: 20px;
+      }
+      p{
+        display: none;
+      }
+    }
